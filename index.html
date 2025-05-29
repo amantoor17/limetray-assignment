@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LimeTray Assignment</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <nav>
+      <img src="https://assets.limetray.com/assets/image_manager/uploads/5204/limetray-logo.webp" alt="LimeTray Logo"
+        class="logo" />
+
+      <div class="nav-burger" onclick="toggleNav()">
+        <img src="more.png" />
+      </div>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#slider">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#menu">Menu</a></li>
+      </ul>
+
+    </nav>
+  </header>
+
+  <!-- Slider Section -->
+  <section class="slider" id="slider">
+    <div class="slides">
+      <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092" class="slide" />
+      <img src="https://images.unsplash.com/photo-1551218808-94e220e084d2" class="slide" />
+      <img src="https://images.unsplash.com/photo-1506084868230-bb9d95c24759" class="slide" />
+    </div>
+    <div class="controls">
+      <span class="prev">&#10094;</span>
+      <span class="next">&#10095;</span>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+
+    <div class="about-content">
+      <img
+        src="https://imageio.forbes.com/specials-images/imageserve/61cd38bbc7e3e4f0c890a841/Head-chef-finishing-dish-in-kitchen-at-restaurant/960x0.jpg?format=jpg&width=1440"
+        alt="About Image" />
+      <div class="about-text">
+        <h2 style="font-weight: light; text-transform: uppercase; letter-spacing: 4px;">About Us</h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem saepe similique nostrum dolorem ducimus nesciunt
+          doloribus, animi eaque sunt esse? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem impedit
+          reprehenderit ullam incidunt sapiente. Incidunt sed rem, accusamus expedita perferendis ea qui amet commodi
+          fugit, voluptatem blanditiis dignissimos est nulla.
+        </p>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt nemo distinctio maxime architecto, iusto quae
+          fugit obcaecati ad harum numquam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore distinctio
+          et harum nemo assumenda provident saepe laborum, quo explicabo ipsum blanditiis mollitia nostrum eius odio
+          illo deleniti hic, accusantium dolorem!
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem exercitationem ex eaque veritatis esse porro
+          asperiores ad eum accusantium at. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis
+          debitis temporibus corrupti labore quo deserunt corporis sequi! Voluptate, incidunt ipsa ea voluptates soluta
+          ipsam maxime deserunt mollitia commodi quis placeat quaerat minus officia reiciendis libero quo repudiandae
+          eos nemo.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Menu -->
+  <section class="menu" id="menu">
+    <h2 class="menu-heading" style="font-weight: light; text-transform: uppercase; letter-spacing: 4px;">Featured Menu
+    </h2>
+    <div class="menu-items">
+      <div class="menu-card">
+        <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=1200&q=80" />
+        <h3>Spicy Chicken</h3>
+        <p>Succulent grilled chicken with tangy spices. Lorem ipsum dolor sit amet. Lorem, ipsum.</p>
+      </div>
+      <div class="menu-card">
+        <img src="https://images.unsplash.com/photo-1506084868230-bb9d95c24759" />
+        <h3>Veggie Delight</h3>
+        <p>A wholesome mix of fresh garden veggies. Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+      </div>
+      <div class="menu-card">
+        <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092" />
+        <h3>Choco Lava Cake</h3>
+        <p>Molten chocolate lava inside soft cake. Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+      </div>
+      <div class="menu-card">
+        <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=1200&q=80" />
+        <h3>Spicy Chicken</h3>
+        <p>Succulent grilled chicken with tangy spices. Lorem ipsum dolor sit amet. Lorem, ipsum.</p>
+      </div>
+      <div class="menu-card">
+        <img src="https://images.unsplash.com/photo-1506084868230-bb9d95c24759" />
+        <h3>Veggie Delight</h3>
+        <p>A wholesome mix of fresh garden veggies. Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+      </div>
+      <div class="menu-card">
+        <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092" />
+        <h3>Choco Lava Cake</h3>
+        <p>Molten chocolate lava inside soft cake. Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+      </div>
+      <div class="menu-card">
+        <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=1200&q=80" />
+        <h3>Spicy Chicken</h3>
+        <p>Succulent grilled chicken with tangy spices. Lorem ipsum dolor sit amet. Lorem, ipsum.</p>
+      </div>
+      <div class="menu-card">
+        <img src="https://images.unsplash.com/photo-1506084868230-bb9d95c24759" />
+        <h3>Veggie Delight</h3>
+        <p>A wholesome mix of fresh garden veggies. Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+      </div>
+      <div class="menu-card">
+        <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092" />
+        <h3>Choco Lava Cake</h3>
+        <p>Molten chocolate lava inside soft cake. Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+      </div>
+      <div class="menu-card">
+        <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=1200&q=80" />
+        <h3>Spicy Chicken</h3>
+        <p>Succulent grilled chicken with tangy spices. Lorem ipsum dolor sit amet. Lorem, ipsum.</p>
+      </div>
+      <div class="menu-card">
+        <img src="https://images.unsplash.com/photo-1506084868230-bb9d95c24759" />
+        <h3>Veggie Delight</h3>
+        <p>A wholesome mix of fresh garden veggies. Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+      </div>
+      <div class="menu-card">
+        <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092" />
+        <h3>Choco Lava Cake</h3>
+        <p>Molten chocolate lava inside soft cake. Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+      </div>
+      <div class="menu-card">
+        <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=1200&q=80" />
+        <h3>Spicy Chicken</h3>
+        <p>Succulent grilled chicken with tangy spices. Lorem ipsum dolor sit amet. Lorem, ipsum.</p>
+      </div>
+      <div class="menu-card">
+        <img src="https://images.unsplash.com/photo-1506084868230-bb9d95c24759" />
+        <h3>Veggie Delight</h3>
+        <p>A wholesome mix of fresh garden veggies. Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+      </div>
+      <div class="menu-card">
+        <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092" />
+        <h3>Choco Lava Cake</h3>
+        <p>Molten chocolate lava inside soft cake. Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 LimeTray | <a href="#">Privacy</a> | <a href="#">Contact</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
